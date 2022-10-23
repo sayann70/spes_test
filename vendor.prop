@@ -122,6 +122,14 @@ ro.apk_verity.mode=2
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
+# Fling Velocity
+ro.min.fling_velocity=160
+ro.max.fling_velocity=20000
+ro.vendor.qti.cgroup_follow.enable=true 
+persist.vendor.qti.inputopts.enable=true 
+persist.vendor.qti.inputopts.movetouchslop=0.6 
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
 # Graphics
 debug.sf.auto_latch_unsignaled=false
 debug.sf.disable_client_composition_cache=1
