@@ -400,6 +400,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
+# Remove Packages
+
+PRODUCT_PACKAGES += \
+	RemovePackages
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson \
