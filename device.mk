@@ -400,10 +400,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
-# Remove Packages
-
+# Remove unwanted packages
+ifneq ($(WITH_GAPPS),true)
 PRODUCT_PACKAGES += \
-	RemovePackages
+    Remove_Packages
+endif
+
 
 # QMI
 PRODUCT_PACKAGES += \
