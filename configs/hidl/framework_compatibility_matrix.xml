@@ -678,7 +678,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.xiaomi.hardware.mtdservice</name>
-        <version>1.0-2</version>
+        <version>1.0-3</version>
         <interface>
             <name>IMTService</name>
             <instance>default</instance>
@@ -748,6 +748,69 @@
         <name>vendor.lineage.health</name>
         <interface>
             <name>IChargingControl</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>android.hardware.bluetooth.audio</name>
+        <version>2</version>
+        <interface>
+            <name>IBluetoothAudioProviderFactory</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+       <name>android.hardware.boot</name>
+       <version>1.2</version>
+       <interface>
+         <name>IBootControl</name>
+         <instance>default</instance>
+       </interface>
+   </hal>
+   <hal format="aidl" optional="true">
+       <name>android.hardware.power</name>
+       <version>3</version>
+       <interface>
+          <name>IPower</name>
+          <instance>default</instance>
+       </interface>
+   </hal>
+   <hal format="hidl" optional="true">
+        <name>android.hardware.vibrator</name>
+        <interface>
+            <name>IVibrator</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+   <hal format="aidl" optional="true">
+        <name>android.hardware.wifi.hostapd</name>
+        <version>1</version>
+        <interface>
+            <name>IHostapd</name>
+            <instance>default</instance>
+        </interface>
+     </hal>
+     <hal format="aidl" optional="true">
+        <name>android.hardware.wifi.supplicant</name>
+        <version>1</version>
+        <interface>
+            <name>ISupplicant</name>
+            <instance>default</instance>
+        </interface>
+   </hal>
+   <hal format="hidl" optional="true">
+         <name>android.hardware.wifi</name>
+         <version>1.0-6</version>
+         <interface>
+             <name>IWifi</name>
+             <instance>default</instance>
+         </interface>
+   </hal>
+  <hal format="hidl" optional="true">
+        <name>vendor.xiaomi.hardware.vsimapp</name>
+        <version>1.0</version>
+        <interface>
+            <name>IVSIMService</name>
             <instance>default</instance>
         </interface>
     </hal>
