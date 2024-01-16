@@ -18,9 +18,3 @@ git clone https://github.com/PixelExperience-Staging/hardware_qcom-caf_bengal_di
 #git clone https://github.com/PixelExperience-Staging/hardware_qcom-caf_bengal_audio hardware/qcom-caf/bengal/audio 
 git clone https://github.com/PixelExperience-Staging/hardware_qcom-caf_bengal_gps hardware/qcom-caf/bengal/gps
 git clone https://github.com/PixelExperience-Staging/hardware_qcom-caf_bengal_media hardware/qcom-caf/bengal/media
-
-# KernelPatch(TMP) 
-cd kernel/xiaomi/sm6225
-git remote add 14 https://github.com/sayann70/android_kernel_xiaomi_sm6225 && git fetch 14
-git cherry-pick 3fd0407
-cd ../../../
