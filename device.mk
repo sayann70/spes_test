@@ -150,7 +150,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
     libgui_vendor \
-    libstdc++_vendor
+    libstdc++_vendor \
+    libpiex_shim
 
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0.vendor \
