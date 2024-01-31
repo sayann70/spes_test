@@ -214,8 +214,6 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Platform
 BOARD_VENDOR := xiaomi
 TARGET_BOARD_PLATFORM := bengal
-PRODUCT_BOARD_PLATFORM := bengal
-OVERRIDE_QCOM_HARDWARE_VARIANT := bengal
 
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
