@@ -59,6 +59,9 @@ on property:sys.boot_completed=1
     write /dev/stune/top-app/schedtune.prefer_idle 1
     write /dev/stune/top-app/schedtune.boost 10
 
+    # Setup ZRAM
+    write /proc/sys/vm/swappiness 100
+
     # Setup runtime blkio
     # value for group_idle is us
     write /dev/blkio/blkio.weight 1000
