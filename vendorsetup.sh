@@ -16,8 +16,8 @@ rm -rf hardware/lineage/compat/Android.bp
 git clone https://github.com/sayann70/vendor_xiaomi_spes -b 14 vendor/xiaomi/spes
 git clone https://github.com/muralivijay/kernel_xiaomi_sm6225 kernel/xiaomi/sm6225
 
-# MiuiCamera
-#git clone https://gitlab.com/ThankYouMario/proprietary_vendor_xiaomi_camera -b uvite-sm6225 vendor/xiaomi/camera
+# MiuiCamera(Lecia 5.0)
+git clone https://gitlab.com/ItzDFPlayer/vendor_xiaomi_miuicamera -b leica-5.0 vendor/xiaomi/miuicamera
 
 # Sepolicy fix for imsrcsd
 echo -e "${color}Switch back to legacy imsrcsd sepolicy${end}"
